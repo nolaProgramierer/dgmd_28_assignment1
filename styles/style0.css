@@ -8,6 +8,39 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
-ul {
+#index-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+#info {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+}
+#info-pic {
+    grid-row: 1 / 2;
+    grid-column: 5 / 9;
+}
+#fav-rest-pic {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+}
+#rest-text {
+    grid-row: 2 / 3;
+    grid-column: 5 / 9;
+}
+form {
+    grid-row: 3 /4;
+    grid-column: 1 / 9;
+}
+form ul {
     list-style-type: none;
+}
+#coding-fieldset {
+    font-size: .9em;
+}
+.cs-courses {
+    font-style: italic;
+    font-size: .80em;
 }

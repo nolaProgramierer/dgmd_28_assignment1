@@ -9,38 +9,68 @@
         <link rel="stylesheet" href="styles/style0.css">
     </head>
     <body>
-        <div>Hello there!</div>
 
         <div id="hero-img">
             <!--Background image here-->
         </div>
-        <form action="#" method="">
-            <fieldset>
-                <legend>Newsletter signup!</legend>
-                <ul>
-                    <li>
-                        <label for="first_name">First name:</label>
-                        <input type="text" name="fname" id="first-name">
-                    </li>
-                    <li>
-                        <label for="last_name">Last name:</label>
-                        <input type="text" name="lname" id="last-name">
-                    </li>
-                    <li>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
-                    </li>
-                    <li>
-                        <label for="checkbox">Add to mailing list:</label>
-                        <input type="checkbox" name="checkbox" id="checkbox">   
-                    </li>
-                    <li>
-                        <input type="submit" value="Submit">
-                    </li>
-                </ul>        
-            </fieldset>
-            
-        </form>
+        <div id="index-container">
+            <div id="info">
+                <h2>Glenn Langdon's hero's journey</h2>
+                <p>
+                    Hailing from Panama City, Florida and having spent a career as an orchestral conductor, upon beginning a semi-retirement I've embarked on an ALM in Digital Media Design.
+                </p>
+                <fieldset>
+                    <legend>Programming background</legend>
+                    <ul id="coding-fieldset">
+                        <li>Wyncode Academy, 2015: <br><span class="cs-courses">Ruby on Rails Coding Bootcamp </span></li>
+                        <li>Stanford University Distinguished Careers Institute, 2018-2019: <br>
+                            <span class="cs-courses">First year foundational courses in Java and C++ (CS 106a, CS 106b)</span>
+                        </li>
+                        <li>
+                            Harvard Extension School ALM, 2020-: <br><span class="cs-courses">CSCI E-3, CSCI E-33a (currently a Course Assistant), CSCI E-12, CSCI E-59</span>
+                        </li>
+                    </ul>
+                </fieldset>
+                
+
+            </div>
+            <div id="info-pic">
+                <img src="images/gl_lookingAway_400x390.jpg" alt="Glenn Langdon">
+            </div>
+            <div id="fav-rest-pic">
+                <img src="images/commanders-palace_612x370.jpg" alt="Commander's Palace">
+            </div>
+            <div id="rest-text">
+                <p>So, you'd like a good meal?</p>
+            </div>
+            <form action="#" method="">
+                <fieldset>
+                    <legend>Newsletter signup!</legend>
+                    <ul>
+                        <li>
+                            <label for="first_name">First name:</label>
+                            <input type="text" name="fname" id="first-name">
+                        </li>
+                        <li>
+                            <label for="last_name">Last name:</label>
+                            <input type="text" name="lname" id="last-name">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="checkbox">Add to mailing list:</label>
+                            <input type="checkbox" name="checkbox" id="checkbox">   
+                        </li>
+                        <li>
+                            <input type="submit" value="Submit">
+                        </li>
+                    </ul>        
+                </fieldset>          
+            </form>
+        </div><!--End grid container-->
+        
 
     </body>
 </html>

@@ -7,32 +7,50 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+img {
+    box-shadow: 10px 5px 5px gray;
 }
 #index-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
+    grid-template-rows: repeat(4, auto);
+    row-gap: 2em;
 }
 #info {
     grid-row: 1 / 2;
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
+    margin-left: 3em;
 }
 #info-pic {
     grid-row: 1 / 2;
     grid-column: 5 / 9;
+    max-width: 100%; 
 }
 #fav-rest-pic {
     grid-row: 2 / 3;
     grid-column: 1 / 5;
+    max-width: 100%; 
 }
 #rest-text {
     grid-row: 2 / 3;
-    grid-column: 5 / 9;
+    grid-column: 6 / 8;
+    justify-self: center;
+    align-self: center;
+}
+#rest-text a {
+    text-decoration: none;
+}
+#learn-more {
+    grid-row: 3 / 4;
+    grid-column: 1 / 9;
+    justify-self: center;
 }
 form {
-    grid-row: 3 /4;
-    grid-column: 1 / 9;
+    grid-row: 4 / 5;
+    grid-column: 2 / 8;
+    
 }
 form ul {
     list-style-type: none;
@@ -43,4 +61,7 @@ form ul {
 .cs-courses {
     font-style: italic;
     font-size: .80em;
+}
+h2 a {
+    text-decoration: none;
 }

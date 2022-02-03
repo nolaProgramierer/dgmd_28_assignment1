@@ -8,9 +8,26 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     margin-bottom: 1em;
+    color: white;
+    position: relative;
+}
+#fav-place {
+    position: absolute;
+    opacity: 0;
+    font-size: 2em;
+    top: 10%;
+    left: 5%;
+}
+#fav-place2 {
+    position: absolute;
+    opacity: 0;
+    font-size: 2em;
+    top: 75%;
+    left: 15%;
 }
 img {
     box-shadow: 10px 5px 5px gray;
+    opacity: .9;
 }
 #index-container {
     display: grid;
